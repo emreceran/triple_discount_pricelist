@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_triple_discount_pricelist_triple_discount_pricelist,triple_discount_pricelist.triple_discount_pricelist,model_triple_discount_pricelist_triple_discount_pricelist,base.group_user,1,1,1,1

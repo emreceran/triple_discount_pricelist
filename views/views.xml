@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+        <record id="view_pricelist_item_form_inherit" model="ir.ui.view">
+            <field name="name">product.pricelist.item.form.inherit</field>
+            <field name="model">product.pricelist.item</field>
+            <field name="inherit_id" ref="product.product_pricelist_item_form_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='fixed_price']" position="after">
+                    <field name="discount1"/>
+                    <field name="discount2"/>
+                    <field name="discount3"/>
+
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
